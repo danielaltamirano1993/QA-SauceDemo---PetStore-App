@@ -1,0 +1,24 @@
+1. Automatización E2E (SauceDemo)
+
+Resultados: 
+
+Se logró la automatización integral del flujo transaccional. 
+La implementación de selectores mediante atributos data-test 
+garantizó la robustez y mantenibilidad del script ante posibles cambios en el DOM.
+
+Hallazgos: 
+
+Se validó la eficacia del framework en la gestión automática de asincronía y estados de carga de la interfaz, 
+asegurando la consistencia en los tiempos de respuesta.
+
+2. Automatización de APIs (PetStore)
+
+Resultados: 
+
+Se ejecutó satisfactoriamente el ciclo de vida del recurso (CRUD: Create, Read, Update). 
+Se confirmó la correcta persistencia y manipulación de datos a través de los verbos HTTP correspondientes.
+
+Hallazgos: 
+
+La validación jerárquica —iniciando por el código de estado (200 OK) y continuando con el esquema del cuerpo (JSON)
+es esencial para garantizar la integridad de la respuesta del servidor previo a la aserción de datos.

@@ -35,7 +35,7 @@ npm install
 ```
 
 
-Ejecutar pruebas:
+# Ejecutar pruebas:
 
 Modo Interactivo (Recomendado para ver resultados):
 
